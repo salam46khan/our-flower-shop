@@ -43,6 +43,39 @@ p{
 header{
     background: #E554731A;
     overflow: hidden;
+    position: relative;
+}
+nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #E554731A;
+    width: 100%;
+    z-index: 1;
+}
+.navbar{
+    height: 60px;
+}
+ul{
+    display: flex;
+}
+ul li{
+    list-style: none;
+}
+ul li a{
+    padding: 8px 15px;
+    text-decoration: none;
+    color: #272727;
+    font-size: 18px;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    font-size: 24px;
 }
 .banner{
     display: flex;
