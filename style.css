@@ -1,6 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+
+/* comman style here ---------------------- */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+.container{
+    max-width: 1200px;
+    width: 90%;
+    margin: 0 auto;
+}
+.btn{
+    background: #E55473;
+    padding: 10px 25px;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 20px;
+}
+
+.title-section{
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+p{
+    font-size: 16px;
+    line-height: 30px;
+    margin: 20px 0;
+    color: #272727;
+}
+/* header start here ------------------------------- */
+header{
+    background: #E554731A;
+    overflow: hidden;
+}
+.banner{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
+.banner-content{
+    width: 50%;
+}
+.banner-img{
+    height: 100%;
+    width: 50%;
+    position: relative;
+}
+.banner-img img{
+    height: 90%;
+    position: absolute;
+    bottom: 0;
+    right: 10%;
+}
+.banner-heading{
+    font-size: 65px;
+    color: #272727;
+    font-weight: 900;
+}
+.banner-txt{
+    font-size: 16px;
+    line-height: 30px;
+    margin: 20px 0;
+}
+
+/* feature start ----------------------------- */
+.feature{
+    margin-top: 80px;
+}
+.feature-items{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 0;
+}
+.feature-items .item{
+    display: flex;
+    flex-direction:column;
+    justify-content: end;
+    text-align: center;
+    width: 32%;
+}
+.feature-items .item .content{
+    border-radius: 300px 300px 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    overflow: hidden;
+}
+.feature-items .item .content img{
+    width: 80%;
+}
+.lightred{
+    background: #F2DEE7;
+}
+.lightsky{
+    background: #D9EFF1;
+}
+.lightgreen{
+    background: #E3EBDB;
+}
+.feature-items .item h4{
+    margin-top: 20px;
+    font-size: 22px;
+}
+.feature-box{
+    border-radius: 8px;
+    background:#F4F4F4;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding: 50px;
+    margin: 100px 0;
 }
