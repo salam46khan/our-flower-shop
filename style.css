@@ -22,8 +22,11 @@
     border-radius: 8px;
     color: #fff;
     font-size: 20px;
+    transition: 0.3s;
 }
-
+.btn:hover{
+    background: #c4425e;
+}
 .title-section{
     width: 50%;
     margin: 0 auto;
@@ -68,7 +71,9 @@ ul li a{
     color: #272727;
     font-size: 18px;
 }
-
+ul li a:hover{
+    color: #E55473;
+}
 .navbar{
     display: flex;
     align-items: center;
