@@ -48,6 +48,7 @@ header{
     display: flex;
     align-items: center;
     height: 100vh;
+    max-height: 600px;
 }
 .banner-content{
     width: 50%;
@@ -112,7 +113,8 @@ header{
 }
 .feature-items .item h4{
     margin-top: 20px;
-    font-size: 22px;
+    font-size: 20px;
+    text-decoration: underline;
 }
 .feature-box{
     border-radius: 8px;
@@ -190,4 +192,12 @@ header{
 footer{
     background: #000;
     color: #fff;
+    padding: 80px;
+    text-align: center;
+}
+footer p{
+    color: #eee;
+}
+.copy{
+    color: gray;
 }
